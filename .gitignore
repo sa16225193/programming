@@ -1,6 +1,6 @@
 /build
 /out
-/.idea
+/.idea/*
 maindexlist.txt
 *.iml
 .idea
