@@ -73,6 +73,16 @@ public class Fibonacci {
 
     }
 
+    public static int crazyCow(int origin, int month) {
+        if (month < 1) {
+            return 0;
+        }
+        if (month == 1 || month == 2 || month == 3 || month == 4) {
+            return origin * (month + 1);
+        }
+        return origin * (crazyCow(origin, month - 1) + crazyCow(origin, month - 4));
+    }
+
     /**
      * 2 * 2矩阵乘法
      * @param matrixOne

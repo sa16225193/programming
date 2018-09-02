@@ -16,5 +16,6 @@ public class Main {
         System.out.println(month + "个月后，兔子的总对数为：" + Fibonacci.fibonacciByRecursion(month));
 //        System.out.println(month + "个月后，兔子的总对数为：" + Fibonacci.fibonacciByLoop(month));
 //        System.out.println(month + "个月后，兔子的总对数为：" + Fibonacci.fibonacciByMatrix(month));
+//        System.out.println(Fibonacci.crazyCow(4, 5));
     }
 }
